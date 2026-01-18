@@ -26,3 +26,10 @@ What happens if accelration equals zero ?
 How can you visualize this in the motion of an aircraft?
 -Ansewr: In steady cruise flight, an aircraft ,aintains a constnt speed, and direction.
 -In this case, accelration is zero because the forces action on aircraft are balanced.
+
+### Instantaneous Rate of Change
+
+Average velocity is calculated over a time interval.  
+Instantaneous velocity represents the velocity at a single moment in time.
+
+To find it, the time interval is made smaller and smaller.
