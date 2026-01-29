@@ -59,3 +59,21 @@ Limits help us move from average behavior to behavior at a single moment.
 
 In aircraft motion, limits allow us to understand speed at an exact moment,
 such as during takeoff or climb.
+
+## Instantaneous Velocity and Limits
+
+Instantaneous velocity represents the velocity of an object at a specific moment in time.
+
+It is obtained by taking the limit of the average velocity as the time interval approaches zero.
+
+The concept of limits allows engineers to analyze motion at an exact instant, even though time intervals cannot be truly zero in reality.
+
+In aerospace engineering, instantaneous velocity is essential for understanding aircraft motion during takeoff, maneuvering, and steady flight.
+
+### Aerospace Intuition
+
+During takeoff, the aircraft's velocity is continuously changing, which means acceleration is present.
+
+During steady cruise flight, velocity is approximately constant, so acceleration is close to zero.
+
+Analyzing these situations requires instantaneous velocity rather than average velocity.
