@@ -46,3 +46,16 @@ This means the rate of change of velocity is positive.
 
 Understanding rates of change helps engineers predict how an aircraft
 responds to forces during different phases of flight.
+
+## Limits (Intuition)
+
+A limit describes what value a quantity approaches as another quantity gets closer to a point.
+
+In motion:
+- Average velocity describes motion over a time interval.
+- Instantaneous velocity is what happens as the time interval becomes very small.
+
+Limits help us move from average behavior to behavior at a single moment.
+
+In aircraft motion, limits allow us to understand speed at an exact moment,
+such as during takeoff or climb.
