@@ -33,3 +33,16 @@ Average velocity is calculated over a time interval.
 Instantaneous velocity represents the velocity at a single moment in time.
 
 To find it, the time interval is made smaller and smaller.
+
+## Rate of Change and Aircraft Motion
+
+In aircraft motion, quantities rarely stay constant.
+
+- The rate of change of position is velocity.
+- The rate of change of velocity is acceleration.
+
+During takeoff, the aircraft’s velocity increases with time.
+This means the rate of change of velocity is positive.
+
+Understanding rates of change helps engineers predict how an aircraft
+responds to forces during different phases of flight.
