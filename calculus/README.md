@@ -77,3 +77,29 @@ During takeoff, the aircraft's velocity is continuously changing, which means ac
 During steady cruise flight, velocity is approximately constant, so acceleration is close to zero.
 
 Analyzing these situations requires instantaneous velocity rather than average velocity.
+
+## Velocity–Time Graph and Acceleration
+
+A velocity–time graph shows how velocity changes over time.
+
+The horizontal axis represents time, while the vertical axis represents velocity.
+
+Each point on the graph represents the velocity of the object at a specific moment.
+
+### Understanding Acceleration
+
+Acceleration describes how velocity changes with time.
+
+On a velocity–time graph, acceleration is represented by the slope of the graph.
+
+A horizontal line indicates constant velocity and zero acceleration.
+
+A sloped line indicates changing velocity and non-zero acceleration.
+
+### Aerospace Interpretation
+
+During aircraft takeoff, velocity increases over time, indicating positive acceleration.
+
+During steady cruise flight, velocity remains approximately constant, indicating near-zero acceleration.
+
+During landing or deceleration, velocity decreases, indicating negative acceleration.
