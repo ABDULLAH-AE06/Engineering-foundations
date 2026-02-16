@@ -103,3 +103,31 @@ During aircraft takeoff, velocity increases over time, indicating positive accel
 During steady cruise flight, velocity remains approximately constant, indicating near-zero acceleration.
 
 During landing or deceleration, velocity decreases, indicating negative acceleration.
+
+## Connecting Motion Graphs
+
+How position, velocity, and acceleration graphs relate to each other.
+
+
+## Connecting Motion Graphs — Aircraft Example
+
+To understand how position, velocity, and acceleration graphs relate to each other,
+consider the motion of an aircraft during different phases of flight.
+
+### Case 1: Constant Velocity (Cruise Flight)
+
+During steady cruise flight, the aircraft moves forward at an approximately constant velocity.
+
+On a position–time graph, constant velocity appears as a straight line with a constant slope.
+
+This means the aircraft covers equal distances in equal intervals of time.
+
+On a velocity–time graph, constant velocity appears as a horizontal line.
+
+Since velocity does not change with time, the slope of this graph is zero.
+
+On an acceleration–time graph, this motion appears as a line at zero.
+
+Zero acceleration indicates that the velocity is constant.
+
+When velocity is constant, position increases linearly with time, and acceleration is zero.
