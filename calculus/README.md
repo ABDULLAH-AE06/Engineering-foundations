@@ -169,3 +169,23 @@ This indicates constant negative acceleration.
 
 When acceleration is negative, velocity decreases over time, and the position curve becomes less steep.
 Acceleration determines how velocity changes, and velocity determines how position changes.
+
+## Summary of Motion Relationships
+
+The relationship between position, velocity, and acceleration can be understood through their graphs.
+
+Position describes where the aircraft is.
+
+Velocity describes how fast the position changes.
+
+Acceleration describes how fast the velocity changes.
+
+These relationships can be summarized as follows:
+
+- Constant velocity → position increases linearly, acceleration is zero.
+- Positive acceleration → velocity increases, position curves upward.
+- Negative acceleration → velocity decreases, position curve becomes less steep.
+
+This shows that acceleration controls velocity, and velocity controls position.
+
+Understanding these relationships is fundamental for analyzing aircraft motion and aerospace systems.
