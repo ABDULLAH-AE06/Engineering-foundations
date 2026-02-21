@@ -131,3 +131,24 @@ On an acceleration–time graph, this motion appears as a line at zero.
 Zero acceleration indicates that the velocity is constant.
 
 When velocity is constant, position increases linearly with time, and acceleration is zero.
+
+### Case 2: Positive Acceleration (Aircraft Takeoff)
+
+During takeoff, the aircraft starts from a low velocity and increases its velocity over time.
+
+This means the aircraft is accelerating.
+
+On a position–time graph, this motion appears as a curve that becomes steeper over time.
+This happens because the velocity is increasing, so the aircraft covers more distance each second.
+
+On a position–time graph, this motion appears as a curve that becomes steeper over time.
+This happens because the velocity is increasing, so the aircraft covers more distance each second.
+
+On a velocity–time graph, this appears as a straight line with a positive slope.
+The positive slope indicates that velocity is increasing with time.
+
+On an acceleration–time graph, this appears as a horizontal line above zero.
+This indicates constant positive acceleration.
+
+When acceleration is positive, velocity increases over time, and position curves upward.
+Acceleration controls how velocity changes, and velocity controls how position changes.
