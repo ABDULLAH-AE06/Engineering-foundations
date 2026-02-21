@@ -152,3 +152,20 @@ This indicates constant positive acceleration.
 
 When acceleration is positive, velocity increases over time, and position curves upward.
 Acceleration controls how velocity changes, and velocity controls how position changes.
+
+### Case 3: Negative Acceleration (Aircraft Landing)
+
+During landing, the aircraft reduces its velocity over time.
+This means the aircraft is experiencing negative acceleration, also called deceleration.
+
+On a position–time graph, the curve continues to increase, but its slope becomes smaller over time.
+This happens because the velocity is decreasing.
+
+On a velocity–time graph, this appears as a straight line with a negative slope.
+The negative slope indicates that velocity is decreasing with time.
+
+On an acceleration–time graph, this appears as a horizontal line below zero.
+This indicates constant negative acceleration.
+
+When acceleration is negative, velocity decreases over time, and the position curve becomes less steep.
+Acceleration determines how velocity changes, and velocity determines how position changes.
