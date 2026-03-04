@@ -49,3 +49,14 @@ plt.title("Acceleration vs Time")
 plt.xlabel("Time")
 plt.ylabel("Acceleration")
 plt.show()
+
+Today: I tried to study this code and i noticed that when i change the a it doesn't in the graph cuz its automaticalley making the values of x and y axes much bigger, anyways i made this edit for position code 
+plt.figure()
+plt.plot(t, x)
+plt.title("Position vs Time")
+plt.xlabel("Time")
+plt.ylabel("Position")
+plt.xlim(0, 10)
+plt.ylim(0, 200)
+plt.show()
+when i did this it worked very well.
