@@ -60,3 +60,29 @@ plt.xlim(0, 10)
 plt.ylim(0, 200)
 plt.show()
 when i did this it worked very well.
+
+Next prohect was about calculating velocity and position and i used this code
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	double a;
+	double t;
+	double v;
+	double x;
+	cout << "Enter the accelration:";
+	cin >> a;
+	for (t = 0; t <= 10; t++) here i made change about the addition system by changing it to t+=2 so i found the value were less accurate because the calculation have been done every 2 seconeds
+	{
+		v = a * t;
+		x = 0.5 * a * t * t;
+
+		cout <<"time: " << t
+			 <<"velocity: " << v
+			 << "position: " << x << endl;
+		
+	}
+	return 0;
+
+}
