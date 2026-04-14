@@ -86,3 +86,35 @@ int main()
 	return 0;
 
 }
+
+
+ After that I learned new thing about adiing the initial velocity to my coding system
+ ## Code Evolution Notes
+
+In the second version of the program, several improvements were made to make the motion simulation more realistic and flexible.
+
+First, a new variable called `v0` was added to represent the initial velocity of the object. This allows the simulation to model objects that are already moving before acceleration begins, instead of assuming they always start from rest.
+
+User input was also added for the initial velocity so the user can choose the starting speed manually during program execution.
+
+The velocity formula was updated from:
+
+v = a * t
+
+to:
+
+v = v0 + a * t
+
+This change means the velocity now starts from the initial velocity and then increases or decreases depending on acceleration.
+
+The position formula was updated from:
+
+x = 0.5 * a * t^2
+
+to:
+
+x = v0 * t + 0.5 * a * t^2
+
+This was done to include the distance traveled because of the initial velocity in addition to the distance caused by acceleration.
+
+Overall, the first version represented an object starting from rest, while the second version represents a more general and realistic motion model where the object may already be moving before acceleration begins.
