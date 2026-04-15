@@ -115,6 +115,43 @@ to:
 
 x = v0 * t + 0.5 * a * t^2
 
+
+## Negative Acceleration and Turning Point
+
+In this stage, the motion simulation was tested using negative acceleration to represent deceleration.
+
+The acceleration was set to a negative value while keeping a positive initial velocity:
+
+a = -10  
+v0 = 50
+
+This caused the object's velocity to decrease over time instead of increasing.
+
+The simulation showed that velocity gradually dropped until it reached zero at:
+
+t = 5
+
+At this exact moment, the object reached its maximum position:
+
+Position = 125
+
+This point represents the farthest distance traveled before the object stopped.
+
+After this moment, the velocity became negative, which means the object reversed direction and started moving backward.
+
+This demonstrated an important physical concept:
+
+When velocity becomes zero, it can indicate a turning point rather than the end of motion.
+
+The simulation also showed that:
+
+Positive velocity means motion in the forward direction.  
+Negative velocity means motion in the opposite direction.
+
+This behavior is similar to projectile motion, where an object slows down while rising, stops at the highest point, then reverses direction and falls back down.
+
+Overall, this experiment introduced the concept of deceleration, direction reversal, and turning points in motion simulation.
+
 This was done to include the distance traveled because of the initial velocity in addition to the distance caused by acceleration.
 
 Overall, the first version represented an object starting from rest, while the second version represents a more general and realistic motion model where the object may already be moving before acceleration begins.
