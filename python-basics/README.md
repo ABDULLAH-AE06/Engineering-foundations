@@ -61,7 +61,7 @@ plt.ylim(0, 200)
 plt.show()
 when i did this it worked very well.
 
-Next prohect was about calculating velocity and position and i used this code
+Next project was about calculating velocity and position and i used this code (I STARTED USING C++ FROM NOW ON)
 
 #include<iostream>
 using namespace std;
