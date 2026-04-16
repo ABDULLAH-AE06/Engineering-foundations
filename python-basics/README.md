@@ -155,3 +155,17 @@ Overall, this experiment introduced the concept of deceleration, direction rever
 This was done to include the distance traveled because of the initial velocity in addition to the distance caused by acceleration.
 
 Overall, the first version represented an object starting from rest, while the second version represents a more general and realistic motion model where the object may already be moving before acceleration begins.
+
+## Programming Progress – Introduction to if Statement
+
+In this step, conditional logic was introduced into the simulation using the if statement.
+
+The program was updated to check when the velocity becomes zero using:
+
+if (v == 0)
+
+When this condition is met, the program prints a message indicating that the object has stopped.
+
+This is the first step in transforming the program from simple calculations into a system that can make decisions based on computed values.
+
+This improvement allows the simulation to detect important physical events instead of only printing numerical results.
