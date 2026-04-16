@@ -189,3 +189,14 @@ These relationships can be summarized as follows:
 This shows that acceleration controls velocity, and velocity controls position.
 
 Understanding these relationships is fundamental for analyzing aircraft motion and aerospace systems.
+
+
+## Conceptual Understanding – Stopping Point Detection
+
+The simulation demonstrated that when velocity reaches zero, the object temporarily stops before changing direction.
+
+This moment represents a key physical concept known as the turning point, where motion transitions from forward to backward.
+
+By detecting when velocity equals zero, the system identifies the exact moment of توقف (instantaneous stop).
+
+This reinforces the idea that velocity is the indicator of motion direction, and that zero velocity can represent a transition rather than the end of motion.
