@@ -200,3 +200,14 @@ This moment represents a key physical concept known as the turning point, where 
 By detecting when velocity equals zero, the system identifies the exact moment of توقف (instantaneous stop).
 
 This reinforces the idea that velocity is the indicator of motion direction, and that zero velocity can represent a transition rather than the end of motion.
+
+
+## Conceptual Understanding – Stopping Condition in Simulation
+
+The simulation was updated to stop when the velocity becomes zero.
+
+This represents the exact moment when the object reaches its maximum position and temporarily stops before reversing direction.
+
+By stopping the simulation at this point, the model focuses only on the forward motion phase.
+
+This demonstrates how physical conditions (such as velocity = 0) can be used to control program behavior and define meaningful stopping points in simulations.
