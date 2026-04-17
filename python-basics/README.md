@@ -169,3 +169,22 @@ When this condition is met, the program prints a message indicating that the obj
 This is the first step in transforming the program from simple calculations into a system that can make decisions based on computed values.
 
 This improvement allows the simulation to detect important physical events instead of only printing numerical results.
+
+
+## Programming Progress – Using break to Stop Simulation
+
+In this step, the simulation was improved by adding control flow using the break statement.
+
+Previously, the loop continued running even after the object stopped and began moving in the opposite direction.
+
+To fix this, a condition was added:
+
+if (v == 0)
+
+When the velocity reaches zero, the program now prints a message and immediately exits the loop using:
+
+break;
+
+This allows the simulation to stop exactly at the moment the object reaches its turning point.
+
+This change improves the realism of the simulation and prevents unnecessary calculations after the object stops.
