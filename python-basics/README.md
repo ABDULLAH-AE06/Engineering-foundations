@@ -188,3 +188,20 @@ break;
 This allows the simulation to stop exactly at the moment the object reaches its turning point.
 
 This change improves the realism of the simulation and prevents unnecessary calculations after the object stops.
+
+
+## Programming Progress – Detecting Direction Reversal (Velocity Sign Change)
+
+In this update, the motion simulation was improved by adding logic to detect when the object changes direction.
+
+A new variable `prev_v` was introduced to store the previous velocity value. This allows comparison between consecutive velocity values.
+
+The condition:
+
+if (prev_v > 0 && v < 0)
+
+was used to detect when velocity changes from positive to negative, indicating that the object has passed its turning point and started moving in the opposite direction.
+
+When this condition is satisfied, the program prints a message and stops execution using `break`.
+
+This improves the simulation by identifying not only when the object stops, but also when it reverses direction.
