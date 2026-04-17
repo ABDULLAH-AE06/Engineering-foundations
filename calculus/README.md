@@ -211,3 +211,14 @@ This represents the exact moment when the object reaches its maximum position an
 By stopping the simulation at this point, the model focuses only on the forward motion phase.
 
 This demonstrates how physical conditions (such as velocity = 0) can be used to control program behavior and define meaningful stopping points in simulations.
+
+
+## Conceptual Understanding – Turning Point and Direction Change
+
+The simulation demonstrated that motion is not only defined by speed, but also by direction.
+
+A turning point occurs when velocity transitions from positive to negative, meaning the object has stopped moving forward and started moving backward.
+
+This is more accurate than only checking for velocity equals zero, because direction change is what defines the physical behavior of the system.
+
+This concept is similar to real-world motion such as projectile motion, where an object rises, stops momentarily, then falls back down due to negative acceleration.
