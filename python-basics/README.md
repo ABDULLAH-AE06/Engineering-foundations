@@ -202,6 +202,25 @@ if (prev_v > 0 && v < 0)
 
 was used to detect when velocity changes from positive to negative, indicating that the object has passed its turning point and started moving in the opposite direction.
 
+## Programming Progress – From Basic Simulation to Intelligent Motion Model
+
+The motion simulation evolved significantly through multiple stages of development.
+
+Initially, the program performed simple calculations using constant acceleration and assumed the object started from rest.
+
+The model was then improved by introducing initial velocity (v0), making the simulation more realistic.
+
+Next, time step control was refined (from larger steps to smaller ones) to improve accuracy.
+
+Conditional logic was introduced using if statements to detect important events such as when velocity becomes zero.
+
+The break statement was added to stop the simulation at meaningful moments, such as the stopping point.
+
+Further improvements included tracking previous velocity (prev_v) to detect direction reversal by checking when velocity changes from positive to negative.
+
+Finally, the simulation was enhanced to track the maximum position (max_x), allowing the program to determine the highest point reached during motion.
+
+Overall, the program evolved from simple numerical output to a system capable of analyzing motion behavior and making decisions based on physical conditions.
 When this condition is satisfied, the program prints a message and stops execution using `break`.
 
 This improves the simulation by identifying not only when the object stops, but also when it reverses direction.
