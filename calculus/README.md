@@ -222,3 +222,20 @@ A turning point occurs when velocity transitions from positive to negative, mean
 This is more accurate than only checking for velocity equals zero, because direction change is what defines the physical behavior of the system.
 
 This concept is similar to real-world motion such as projectile motion, where an object rises, stops momentarily, then falls back down due to negative acceleration.
+
+
+## Conceptual Understanding – Motion Behavior and Key Physical Events
+
+Through this simulation, several important physical concepts were explored and connected.
+
+The addition of initial velocity demonstrated that objects do not always start from rest, making the model more realistic.
+
+Negative acceleration introduced the concept of deceleration, showing how velocity decreases over time.
+
+The simulation revealed that when velocity becomes zero, the object reaches a turning point, where it temporarily stops before reversing direction.
+
+By tracking velocity changes (from positive to negative), the program identified direction reversal, which is a key characteristic of real-world motion.
+
+Additionally, tracking the maximum position showed that the turning point corresponds to the highest point reached by the object.
+
+These concepts closely relate to real physical systems such as projectile motion, vehicle braking, and aircraft movement, reinforcing the connection between mathematics, physics, and programming.
