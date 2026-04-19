@@ -239,3 +239,14 @@ By tracking velocity changes (from positive to negative), the program identified
 Additionally, tracking the maximum position showed that the turning point corresponds to the highest point reached by the object.
 
 These concepts closely relate to real physical systems such as projectile motion, vehicle braking, and aircraft movement, reinforcing the connection between mathematics, physics, and programming.
+
+
+## Conceptual Understanding – Execution Order and Variable Dependency
+
+This step improved understanding of how program execution order affects correctness.
+
+It was learned that dependent variables (such as stopping time) cannot be calculated before their required inputs are defined.
+
+In this case, the stopping time depends on initial velocity and acceleration, so it must be computed after receiving user input.
+
+This reinforces the concept of data dependency and proper program structure in C++.
