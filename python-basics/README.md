@@ -224,3 +224,17 @@ Overall, the program evolved from simple numerical output to a system capable of
 When this condition is satisfied, the program prints a message and stops execution using `break`.
 
 This improves the simulation by identifying not only when the object stops, but also when it reverses direction.
+
+## Programming Progress – Correct Placement of Derived Calculations
+
+In this update, the calculation of derived variables was organized correctly within the program flow.
+
+The variable `t_stop` was computed using the formula:
+
+t_stop = -v0 / a
+
+This calculation was placed after user input (cin statements) because it depends on values provided by the user.
+
+This demonstrates the importance of execution order in C++, where variables that depend on input data must be calculated only after those inputs are available.
+
+The program structure now follows a logical sequence: input → computation → output.
