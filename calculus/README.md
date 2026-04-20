@@ -193,7 +193,7 @@ Understanding these relationships is fundamental for analyzing aircraft motion a
 
 ## Conceptual Understanding – Stopping Point Detection
 
-The simulation demonstrated that when velocity reaches zero, the object temporarily stops before changing direction.
+i learnd that the when object reaches zero vilosity it stops before changing its direction
 
 This moment represents a key physical concept known as the turning point, where motion transitions from forward to backward.
 
