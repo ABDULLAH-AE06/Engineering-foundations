@@ -203,7 +203,7 @@ This reinforces the idea that velocity is the indicator of motion direction, and
 
 
 ## Conceptual Understanding – Stopping Condition in Simulation
-
+i learned from this concept how to calculate and understand when the flight reaches its maximum position and stop before reversing its direction
 The simulation was updated to stop when the velocity becomes zero.
 
 This represents the exact moment when the object reaches its maximum position and temporarily stops before reversing direction.
