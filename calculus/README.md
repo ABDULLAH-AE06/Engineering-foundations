@@ -214,7 +214,7 @@ This demonstrates how physical conditions (such as velocity = 0) can be used to 
 
 
 ## Conceptual Understanding – Turning Point and Direction Change
-
+I learned here that transfearing from positive velocity to negative velocity will change its direction
 The simulation demonstrated that motion is not only defined by speed, but also by direction.
 
 A turning point occurs when velocity transitions from positive to negative, meaning the object has stopped moving forward and started moving backward.
