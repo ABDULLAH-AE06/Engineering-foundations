@@ -225,7 +225,7 @@ This concept is similar to real-world motion such as projectile motion, where an
 
 
 ## Conceptual Understanding – Motion Behavior and Key Physical Events
-
+I learned that the object not starting from the rest, and that the negative accelration shows the maximum, stop, and revers point 
 Through this simulation, several important physical concepts were explored and connected.
 
 The addition of initial velocity demonstrated that objects do not always start from rest, making the model more realistic.
