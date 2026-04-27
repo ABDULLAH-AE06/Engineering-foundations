@@ -238,3 +238,19 @@ This calculation was placed after user input (cin statements) because it depends
 This demonstrates the importance of execution order in C++, where variables that depend on input data must be calculated only after those inputs are available.
 
 The program structure now follows a logical sequence: input → computation → output.
+
+## Programming Progress – First Function and Stopping Time Calculation
+
+In this step, the program was improved by introducing the first C++ function.
+
+A function called `calculateStoppingTime()` was created to calculate the stopping time using the formula:
+
+t_stop = -v0 / a
+
+Instead of writing the equation directly inside `main()`, the calculation was moved into a separate function.
+
+This made the code cleaner, more organized, and easier to understand.
+
+I also learned that calculations depending on user input must be placed after `cin`, because values like acceleration and initial velocity must be entered first before they can be used.
+
+This step introduced better code structure and the concept of reusable functions.
