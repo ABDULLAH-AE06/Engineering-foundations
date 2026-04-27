@@ -243,6 +243,8 @@ These concepts closely relate to real physical systems such as projectile motion
 
 ## Conceptual Understanding – Execution Order and Variable Dependency
 
+this project showed me that time equal to negative does not means that the obect will stop in the future but stoping before two sec 
+
 This step improved understanding of how program execution order affects correctness.
 
 It was learned that dependent variables (such as stopping time) cannot be calculated before their required inputs are defined.
@@ -250,3 +252,26 @@ It was learned that dependent variables (such as stopping time) cannot be calcul
 In this case, the stopping time depends on initial velocity and acceleration, so it must be computed after receiving user input.
 
 This reinforces the concept of data dependency and proper program structure in C++.
+
+## Conceptual Understanding – Meaning of Negative Stopping Time
+
+This step improved understanding of the physical meaning behind stopping time.
+
+Using the equation:
+
+t_stop = -v0 / a
+
+I tested the case:
+
+a = 5
+v0 = 10
+
+The result was:
+
+t_stop = -2
+
+This showed that the object does not stop in the future because both acceleration and velocity are positive, meaning the object keeps accelerating forward.
+
+A negative stopping time means that, mathematically, the object would have been stopped in the past, not in future motion.
+
+This helped connect mathematical results with physical interpretation and showed that not every numerical answer represents a realistic future event.
